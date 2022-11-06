@@ -1,14 +1,56 @@
 /* header */
-#H_logo{
+#gnb_wrap{
+    display: inline-block;
+    width: 100%;
     margin-left: 220px;
-    margin-top: 51px;
+    margin-top: 49px;
 }
 
-.Logo{
-    font-size: 50px;
-}
-
-.Logo_img{
+#gnb_wrap a img{
     width: 43px;
     height: 38px;
+}
+
+.gnb_title{
+    font-size: 50px;
+    font-family: 'YanoneKaffeesatz_Bold';
+}
+
+#gnb_1depth_menu{
+    float: right;
+    margin-top: 8px;
+    margin-right: 325px;
+}
+
+#gnb_1depth_menu ul{
+    margin: 0;
+    padding: 0;
+    width: 650px;
+}
+
+#gnb_1depth_menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 110px;
+}
+
+#gnb_1depth_menu ul li a{
+    font-size: 20px;
+    font-family: 'Y_Spotlight';
+}
+
+/* background */
+
+#index_background{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+#index_background img{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }

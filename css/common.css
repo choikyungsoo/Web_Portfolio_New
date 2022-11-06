@@ -1,3 +1,29 @@
+/* 폰트 설정 */
+@font-face {
+    font-family: 'YanoneKaffeesatz_Bold';
+    src: url("../fonts/YanoneKaffeesatz-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Y_Spotlight';
+    src: url("../fonts/Y\ 너만을\ 비춤체.ttf");
+}
+/* GNB 반응형 구현 */
+
+@media screen {
+    
+}
+
+
+/* 태그별 공통 적용 */
 a {
     text-decoration-line: none;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 100px
 }
