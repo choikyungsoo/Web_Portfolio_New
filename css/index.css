@@ -1,5 +1,14 @@
 /* header */
+#H_logo{
+    margin-left: 220px;
+    margin-top: 51px;
+}
 
-#H_Logo{
-    color: red;
+.Logo{
+    font-size: 50px;
+}
+
+.Logo_img{
+    width: 43px;
+    height: 38px;
 }
