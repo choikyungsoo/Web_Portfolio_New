@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
     <title>DEVELOPE</title>
 </head>
 
-<body>
-    <div>
-        <header>
+<body onload="init()">
+    <header>
+        <div id="gnb_main">
             <div id="gnb_wrap">
-                <a href="index.html"><img src="images/H_Logo.png" onmouseover="this.src='images/H_Logo_h.png';"
-                        onmouseout="this.src='images/H_Logo.png';" alt="로고"></a>
+                <a href="index.html"><img id="gnb_logo" src="images/H_Logo.png" alt="로고"></a>
                 <a class="gnb_title" href="index.html">DEVELOPE</a>
                 <nav id="gnb_1depth_menu">
                     <ul>
@@ -24,12 +24,14 @@
                         <li><a href="#">Contact Me</a></li>
                     </ul>
                 </nav>
+
             </div>
-        </header>
-        <div id="index_background">
-            <img src="images/Background.png">
-        </div>
+    </header>
+    <div id="index_background">
+        <img src="images/Background.png">
     </div>
+    </div>
+
     <section>
 
     </section>

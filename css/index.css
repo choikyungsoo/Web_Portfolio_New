@@ -1,9 +1,20 @@
 /* header */
+#gnb_main{
+    position: relative;
+}
+
 #gnb_wrap{
     display: inline-block;
     width: 100%;
     margin-left: 220px;
     margin-top: 49px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#gnb_wrap a:hover{
+    color: #406EFF;
 }
 
 #gnb_wrap a img{
@@ -14,6 +25,7 @@
 .gnb_title{
     font-size: 50px;
     font-family: 'YanoneKaffeesatz_Bold';
+    color: white;
 }
 
 #gnb_1depth_menu{
@@ -37,20 +49,9 @@
 #gnb_1depth_menu ul li a{
     font-size: 20px;
     font-family: 'Y_Spotlight';
+    color: white;
 }
 
-/* background */
-
-#index_background{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}
-
-#index_background img{
-    margin: 0;
-    padding: 0;
-    border: 0;
+#gnb_1depth_menu ul li a:hover{
+    color: #406EFF;
 }
