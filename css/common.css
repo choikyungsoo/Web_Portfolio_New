@@ -8,6 +8,13 @@
     font-family: 'Y_Spotlight';
     src: url("../fonts/Y\ 너만을\ 비춤체.ttf");
 }
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* GNB 반응형 구현 */
 
 @media screen {

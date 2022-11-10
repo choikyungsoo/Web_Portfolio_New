@@ -58,3 +58,9 @@
     transform: translate( -50%, -50% );
     text-align: center;
 }
+
+#index_introduce p {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'GmarketSansMedium';
+}
