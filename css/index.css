@@ -1,67 +1,9 @@
 /* header */
-#gnb_main{
-    position: relative;
-}
-
-#gnb_wrap{
-    display: inline-block;
+header{
+    background: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    margin-left: 220px;
-    margin-top: 49px;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
-
-#gnb_wrap a:hover{
-    color: #406EFF;
-}
-
-#gnb_wrap a img{
-    width: 194px;
-    height: 50px;
-}
-
-#gnb_1depth_menu{
-    float: right;
-    margin-top: 8px;
-    margin-right: 325px;
-}
-
-#gnb_1depth_menu ul{
-    margin: 0;
-    padding: 0;
-    width: 650px;
-}
-
-#gnb_1depth_menu ul li{
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 110px;
-}
-
-#gnb_1depth_menu ul li a{
-    font-size: 20px;
-    font-family: 'Y_Spotlight';
-    color: white;
-}
-
-#gnb_1depth_menu ul li a:hover{
-    color: #406EFF;
-}
-
-#index_introduce{
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    color: white;
-    
-    transform: translate( -50%, -50% );
-    text-align: center;
-}
-
-#index_introduce p {
-    font-size: 100px;
-    font-weight: 700;
-    font-family: 'GmarketSansMedium';
+    height: 1080px;
 }

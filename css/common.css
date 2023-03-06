@@ -15,6 +15,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url(../fonts/NotoSansKR-Light.otf);
+    src: url(../fonts/NotoSansKR-Regular.otf);
+    src: url(../fonts/NotoSansKR-Medium.otf);
+    src: url(../fonts/NotoSansKR-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
 /* GNB 반응형 구현 */
 
 @media screen {
