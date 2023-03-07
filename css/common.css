@@ -32,10 +32,8 @@
 
 
 /* 태그별 공통 적용 */
-a {
-    text-decoration-line: none;
-}
-
 body{
     margin: 0;
+    background-color: #000;
+    height: 7774px;
 }
